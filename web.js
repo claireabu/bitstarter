@@ -1,5 +1,5 @@
 var express = require('express');
-var fs = require('fs');`
+var fs = require('fs');
 
 var buffile = fs.readFileSync('index.html');
 var text = buffile`.toString('utf-8');
