@@ -5,7 +5,7 @@ var buff =  new Buffer(fs.readFileSync('index.html', function(err,data){
     console.log(data);
 }));
 
-var text  = buffer.toString(buff);
+var text  = buff.toString();
 
 var app = express.createServer(express.logger());
 
