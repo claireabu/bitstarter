@@ -1,8 +1,8 @@
 var express = require('express');
 
-var buffile = fs.readFileSync('index.html');
+//var buffile = fs.readFileSync('index.html');
 
-var text  = buffile.toString();
+//var text  = buffile.toString();
 
 var app = express.createServer(express.logger());
 
